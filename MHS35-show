@@ -93,5 +93,6 @@ elif [ $# -gt 1 ]; then
 echo "Too many parameters"
 fi
 
-echo "reboot now"
-sudo reboot
+# we cannot reboot in ansible!!
+#echo "reboot now"
+#sudo reboot
